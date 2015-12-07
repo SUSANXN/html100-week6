@@ -1,0 +1,204 @@
+/* STP Global Stylesheet */
+
+* {
+  box-sizing: border-box;
+  margin-top: 0px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(240,240,240,100);
+
+  font-family: 'Open Sans', 'Segoe UI', sans-serif;
+  font-size: 1rem;
+}
+
+p, a {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+
+/* FONT HEADERS */
+
+h1 {
+  font-family: 'Open Sans Light', 'Segoe UI', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  color: rgba(148,17,40,100);
+  padding: 2rem 1rem 0rem 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: rgba(0,0,0,100);
+}
+
+/* HYPERLINKS */
+
+a:link, a:visited, a:active {
+  color: rgba(148,17,40,100);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(120,120,120,100);
+  text-decoration: none;
+}
+
+
+/* HEADER & NAVIGATION */
+
+header {
+  background-color: rgba(238, 208, 144,100);
+}
+
+.logo {
+  float: left;
+  padding: 10px 16px;
+}
+
+.logo-text {
+  min-height: 94px;
+}
+
+.logo-img {
+  width: 90px;
+  height: 90px;
+}
+
+
+/* NAVIGATION */
+/* Pure CSS dropdown menu tutorial: http://line25.com/tutorials/how-to-create-a-pure-css-dropdown-menu*/
+
+nav a:link, a:visited, a:active {
+  color: white;
+}
+
+/* Remove top-level bullets */
+nav ul ul {
+  display: none;
+}
+
+  /* Hide sub menus */
+  nav ul li:hover > ul {
+    display: block;
+  }
+
+/* Style nav bar */
+nav ul {
+  background-color: rgba(148,17,40,100);
+  padding: 0rem 1rem;
+  list-style: none;
+  position: relative;
+  display: inherit;  /* Not customized to allow for full-wdith nav bar */
+  padding: 0rem 0rem;
+}
+
+  nav ul:after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+/* Sub-menu */
+nav ul li {
+  float: left;
+}
+	nav ul li:hover {
+      background: rgba(180,80,90,100);
+	}
+		nav ul li:hover a {
+		  color: #fff;
+		}
+	
+	nav ul li a {
+		display: block;
+        padding: .5rem 1.5rem;
+		color: rgba(255,255,255,100);
+        text-decoration: none;
+	}
+
+nav ul ul {
+	background: rgba(148,17,40,100);
+    padding: 0;
+	position: absolute;
+    top: 100%;
+}
+	nav ul ul li {
+		float: none; 
+		border-top: 1px solid rgba(255,255,255,100);
+		position: relative;
+	}
+		nav ul ul li a {
+			padding: .5rem 1.5rem;
+			color: rgba(255,255,255,0);
+		}	
+			nav ul ul li a:hover {
+				background: rgba(180,80,90,100);
+			}
+
+/* Position sub-menus accordingly*/
+nav ul ul ul {
+	position: absolute; left: 100%; top:0;
+}
+
+
+/* CONTENT */
+
+article {
+  padding: 0rem 1rem;
+}
+
+/* FOOTER */
+
+footer {
+  padding: 1rem 1rem .4rem 1rem;
+  background-color: rgba(210,210,210,100);
+}
+
+footer p {
+  font-size: .85rem;
+}
+
+
+
+/* GRID SYSTEM */
+/* via Responsive Grid System's calculator */
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px 20px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
