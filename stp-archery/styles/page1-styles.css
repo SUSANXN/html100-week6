@@ -1,0 +1,58 @@
+body { background-color: rgb(234, 234, 226);
+       font-size: 1rem;
+       color:black;
+       font-family: 'Open Sans',sans-serif;
+       font-weight: normal 400; 
+}
+
+nav {background-color: rgb(148,17,40);
+    color: white;
+    float:left;
+    list-style-type: none; 
+    
+}
+
+
+h1 {font-family: 'Open Sans', sans-serif;
+    font-weight: light 300;
+    font-size: 3rem;
+    color: rgb(148,17,40);
+}
+
+footer { background-color: rgb(98, 98, 87);
+         color:white;
+         font-family: 'Open Sans', sans-serif; 
+         font-size: .8rem;
+  
+}
+
+
+
+
+
+.span_3_of_3 {
+	width: 100%; 
+}
+
+.span_2_of_3 {
+	width: 66.13%; 
+}
+
+.span_1_of_3 {
+	width: 32.26%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span_3_of_3 {
+		width: 100%; 
+	}
+	.span_2_of_3 {
+		width: 100%; 
+	}
+	.span_1_of_3 {
+		width: 100%;
+	}
+}
