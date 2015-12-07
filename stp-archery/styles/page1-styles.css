@@ -1,17 +1,38 @@
-body { background-color: rgb(234, 234, 226);
+* {box-sizing: border-box; }
+
+header { background-color: rgba(228,210,180,50);
+         padding:2rem;}
+
+body { background-color: rgba(240,240,240,100);
        font-size: 1rem;
        color:black;
        font-family: 'Open Sans',sans-serif;
        font-weight: normal 400; 
 }
 
-nav {background-color: rgb(148,17,40);
+nav {
+    background-color: rgba(148,17,40,100);
     color: white;
     float:left;
     list-style-type: none; 
-    
+    font-family: 'Open Sans',sans-serif;
 }
 
+.About,.Services,.Schedule,.Shop,.Contact {float:left;
+                                    clear:none;
+                                    padding-left:2rem;
+                                    padding-right:2rem;
+                                    margin-left:2rem;
+                                    margin-right:2rem;}
+
+
+a:active {text-decoration: none;
+          color:white;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: none;
+  color: rgba(120,120,120,100);}
+a:link {color: rgba(148,17,40,100);
+}
 
 h1 {font-family: 'Open Sans', sans-serif;
     font-weight: light 300;
@@ -19,12 +40,19 @@ h1 {font-family: 'Open Sans', sans-serif;
     color: rgb(148,17,40);
 }
 
-footer { background-color: rgb(98, 98, 87);
-         color:white;
+h2 {font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: black;
+}
+
+footer { background-color: rgba(220,220,220,100);
+         color:black;
          font-family: 'Open Sans', sans-serif; 
          font-size: .8rem;
-  
 }
+
+
 
 
 
