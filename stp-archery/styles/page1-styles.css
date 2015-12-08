@@ -1,5 +1,7 @@
 * {box-sizing: border-box; }
 
+/* Header, body, nav */
+
 header { background-color: rgba(228,210,180,50);
           padding:2rem;}}
 
@@ -19,6 +21,7 @@ nav {
     font-family: 'Open Sans',sans-serif;
 }
 
+/* nav bar */
 .About,.Services,.Schedule,.Shop,.Contact {float:left;
                                     clear:none;
                                     padding-left:2rem;
@@ -26,9 +29,8 @@ nav {
                                     margin-left:2rem;
                                     margin-right:2rem;
                                     font-size:1.3rem;
-                                    list-style-type: none;}
-
-a {color:white;}
+                                    list-style-type: none;} 
+/* Images */
 
 img {width: 25%;height:25%;}
 .Derek {float:left;
@@ -41,6 +43,7 @@ clear: both;}
 clear:both;}
 
 
+/* Font */
 h1 {font-family: 'Open Sans', sans-serif;
     font-weight: light 300;
     font-size: 3rem;
@@ -62,4 +65,11 @@ footer {background-color: rgba(220,220,220,100);
          font-size: .8rem;
          padding: 1rem;
          clear:both;}
+
+/* Grid layout - 3 sections */
+
+
+
+
+
 
