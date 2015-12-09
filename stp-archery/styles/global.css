@@ -58,6 +58,7 @@ a:hover {
 header {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(228,210,180,50);
 =======
   background-color: rgba(228,210,180,.5);
@@ -65,6 +66,10 @@ header {
 =======
   background-color: rgba(228,210,180,50);
 >>>>>>> jamie
+=======
+  background-color: rgb(228,210,180);
+  background-color: rgba(228,210,180,50);
+>>>>>>> 4e916cc64563602db5c497ac68cdfe336e466ec8
 }
 
 .logo {
