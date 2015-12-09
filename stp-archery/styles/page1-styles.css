@@ -41,7 +41,7 @@ nav {
 
 /* Images */
 
-img {width: 30%;height:30%;}
+img {width: 38%;height:38%;}
 .Derek {float:left; 
   padding-top:1rem; 
 clear:both;}
@@ -57,6 +57,22 @@ clear:both;}
 
 .instructorh2 {padding-bottom:1rem;}
 
+.dk {padding-top:1.5rem;
+  font-size: 1.3rem;
+  font-weight:bold;
+}
+.a {padding-top:1.5rem;
+  font-size: 1.3rem;
+  font-weight:bold;
+}
+.n {padding-top:1.5rem;
+  font-size: 1.3rem;
+  font-weight:bold;
+}
+.d {padding-top:1.5rem;
+  font-size: 1.3rem;
+  font-weight:bold;
+}
 
 .logo {width:4rem;height:4rem;
   float:left;
