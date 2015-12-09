@@ -97,7 +97,7 @@ nav ul {
   padding: 0rem 1rem;
   list-style: none;
   position: relative;
-  display: inherit;  /* Not customized to allow for full-wdith nav bar */
+  display: inherit;  /* Not customized to allow for full-width nav bar */
   padding: 0rem 0rem;
 }
 
@@ -115,7 +115,7 @@ nav ul li {
       background: rgb(180,80,90);
 	}
 		nav ul li:hover a {
-		  color: #fff;
+		  color: rgb(255,255,255);
 		}
 	
 	nav ul li a {
@@ -136,6 +136,7 @@ nav ul ul {
 		float: none; 
 		border-top: 1px solid rgb(255,255,255);
 		position: relative;
+      
 	}
 		nav ul ul li a {
 			padding: .5rem 1.5rem;
