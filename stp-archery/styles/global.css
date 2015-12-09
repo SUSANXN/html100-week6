@@ -56,7 +56,11 @@ a:hover {
 /* HEADER & NAVIGATION */
 
 header {
+<<<<<<< HEAD
   background-color: rgba(228,210,180,50);
+=======
+  background-color: rgba(228,210,180,.5);
+>>>>>>> b972be73add4e31ad971edb750c435ae5c6fffd1
 }
 
 .logo {
