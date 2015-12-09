@@ -12,6 +12,10 @@ body { background-color: rgba(240,240,240,100);
        font-size: 1rem;
        color:black;
        font-family: 'Open Sans',sans-serif;
+<<<<<<< HEAD
+       font-weight: normal 400; 
+=======
+>>>>>>> susan
        padding:.5rem;
 }
 
