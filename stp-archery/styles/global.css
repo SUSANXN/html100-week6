@@ -8,7 +8,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: rgba(240,240,240,100);
+  background-color: rgb(240,240,240);
 
   font-family: 'Open Sans', 'Segoe UI', sans-serif;
   font-size: 1rem;
@@ -30,25 +30,25 @@ h1 {
   font-family: 'Open Sans Light', 'Segoe UI', sans-serif;
   font-size: 2rem;
   font-weight: normal;
-  color: rgba(148,17,40,100);
+  color: rgb(148,17,40);
   padding: 2rem 1rem 0rem 1rem;
 }
 
 h2 {
   font-size: 1.5rem;
   font-weight: 100;
-  color: rgba(0,0,0,100);
+  color: rgb(0,0,0);
 }
 
 /* HYPERLINKS */
 
 a:link, a:visited, a:active {
-  color: rgba(148,17,40,100);
+  color: rgb(148,17,40);
   text-decoration: none;
 }
 
 a:hover {
-  color: rgba(120,120,120,100);
+  color: rgb(120,120,120);
   text-decoration: none;
 }
 
@@ -56,7 +56,7 @@ a:hover {
 /* HEADER & NAVIGATION */
 
 header {
-  background-color: rgba(238, 208, 144,100);
+  background-color: rgb(238,208,144);
 }
 
 .logo {
@@ -93,7 +93,7 @@ nav ul ul {
 
 /* Style nav bar */
 nav ul {
-  background-color: rgba(148,17,40,100);
+  background-color: rgb(148,17,40);
   padding: 0rem 1rem;
   list-style: none;
   position: relative;
@@ -112,7 +112,7 @@ nav ul li {
   float: left;
 }
 	nav ul li:hover {
-      background: rgba(180,80,90,100);
+      background: rgb(180,80,90);
 	}
 		nav ul li:hover a {
 		  color: #fff;
@@ -121,27 +121,28 @@ nav ul li {
 	nav ul li a {
 		display: block;
         padding: .5rem 1.5rem;
-		color: rgba(255,255,255,100);
+		color: rgb(255,255,255);
         text-decoration: none;
 	}
 
 nav ul ul {
-	background: rgba(148,17,40,100);
+	background: rgb(148,17,40);
+	background: rgba(148,17,40,.85);
     padding: 0;
 	position: absolute;
     top: 100%;
 }
 	nav ul ul li {
 		float: none; 
-		border-top: 1px solid rgba(255,255,255,100);
+		border-top: 1px solid rgb(255,255,255);
 		position: relative;
 	}
 		nav ul ul li a {
 			padding: .5rem 1.5rem;
-			color: rgba(255,255,255,0);
+			color: rgb(255,255,255);
 		}	
 			nav ul ul li a:hover {
-				background: rgba(180,80,90,100);
+				background: rgb(180,80,90);
 			}
 
 /* Position sub-menus accordingly*/
@@ -160,7 +161,7 @@ article {
 
 footer {
   padding: 1rem 1rem .4rem 1rem;
-  background-color: rgba(210,210,210,100);
+  background-color: rgb(210,210,210);
 }
 
 footer p {
