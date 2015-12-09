@@ -27,7 +27,7 @@ nav {
 }
 
 /* nav bar */
-.About,.Services,.Schedule,.Shop,.Contact 
+.Home,.About,.Services,.Schedule,.Shop,.Contact 
 { float:left;
   clear:none;
   padding-left:2rem;
@@ -55,7 +55,7 @@ padding-top:1rem;
 padding-top:1rem;  
 clear:both;}
 
-.instructorh2 {padding-bottom:1rem;}
+.instructorh2 {padding-bottom:.3rem;}
 
 .dk {padding-top:1.5rem;
   font-size: 1.3rem;
