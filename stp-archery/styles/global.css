@@ -56,7 +56,7 @@ a:hover {
 /* HEADER & NAVIGATION */
 
 header {
-  background-color: rgba(228,210,180,.5);
+  background-color: rgba(228,210,180,50);
 }
 
 .logo {
